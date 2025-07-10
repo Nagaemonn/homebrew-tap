@@ -2,20 +2,20 @@ class Treemit < Formula
   desc "A CLI tool for emitting tree structures"
   homepage "https://github.com/Nagaemonn/treemit"
   # ↓↓↓ 新しいリリースを出したら、下記3か所を必ず更新！
-  version "0.1.2-beta" # ← 新しいバージョンに変更
+  version "0.4.0" # ← 新しいバージョンに変更
   license "MIT"
 
   on_macos do
     on_arm do
       # ↓ 新しいリリースのURLとsha256に変更
-      url "https://github.com/Nagaemonn/treemit/releases/download/v0.1.2-beta/treemit-darwin-arm64.tar.gz"
-      sha256 "ed105ea822ae93651d4e9ea0989d82798bceb1728fe8ee441e13e9a9194ccd82"
+      url "https://github.com/Nagaemonn/treemit/releases/download/v0.4.0/treemit-darwin-arm64.tar.gz"
+      sha256 "e75e945b71cf1d557511b53877b3a9b8c389240f6f8a19e84c6c6aa547ef2aeb"
     end
 
     on_intel do
       # ↓ 新しいリリースのURLとsha256に変更
-      url "https://github.com/Nagaemonn/treemit/releases/download/v0.1.2-beta/treemit-darwin-amd64.tar.gz"
-      sha256 "6f3a31cbbf2973641a402f78a2965ebf2f41bba99e51aebd2278930b0fe3fd02"
+      url "https://github.com/Nagaemonn/treemit/releases/download/v0.4.0/treemit-darwin-amd64.tar.gz"
+      sha256 "b3af46f6f712c095d7e465b9044d617ceb44d80b27b77e97aa1b4ae12ec09e34"
     end
   end
 
