@@ -9,13 +9,13 @@ class Treemit < Formula
     on_arm do
       # ↓ 新しいリリースのURLとsha256に変更
       url "https://github.com/Nagaemonn/treemit/releases/download/v0.4.2/treemit-darwin-arm64.tar.gz"
-      sha256 "sha256:bb3e4703e1a0406e54e06d51c0d188cd12f1c9e5e4c7b08c9e7ff278fc7718f9"
+      sha256 "bb3e4703e1a0406e54e06d51c0d188cd12f1c9e5e4c7b08c9e7ff278fc7718f9"
     end
 
     on_intel do
       # ↓ 新しいリリースのURLとsha256に変更
       url "https://github.com/Nagaemonn/treemit/releases/download/v0.4.2/treemit-darwin-amd64.tar.gz"
-      sha256 "sha256:d1156e1ae7386cdfd413f9a072081bd5459652d6d2514f8fdc3a7c1659a6de80"
+      sha256 "d1156e1ae7386cdfd413f9a072081bd5459652d6d2514f8fdc3a7c1659a6de80"
     end
   end
 
